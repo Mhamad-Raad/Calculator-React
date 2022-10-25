@@ -1,9 +1,7 @@
 import './App.css';
+import React from 'react';
+import Calculator from './Components/UI/Calculator';
 
-function App() {
-  return (
-    <div className="App" />
-  );
-}
+const App = () => <Calculator />;
 
 export default App;
