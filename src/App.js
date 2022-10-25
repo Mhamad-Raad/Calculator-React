@@ -1,9 +1,10 @@
+/* eslint-disable react/prefer-stateless-function */
+
 import './App.css';
+import React from 'react';
+import Calculator from './Components/UI/Calculator';
 
-function App() {
-  return (
-    <div className="App" />
-  );
+class App extends React.PureComponent {
+  render = () => <Calculator />
 }
-
 export default App;
