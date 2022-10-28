@@ -62,7 +62,6 @@ const Calculator = () => {
     setNext(result.next);
     setOperation(result.operation);
   };
-  console.log(operation);
   return (
     <div className="calculator">
       <input type="text" readOnly value={operation === null ? total : next} className="calcInput" />
