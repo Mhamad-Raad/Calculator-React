@@ -6,11 +6,9 @@ this is a web application where you have a calculator, and you can use it to sol
 ## Built With
 - HTML
 - CSS
-- JavaScript
-- Webpack
-
+- React
 # Live Demo
-[Demo](https://mhamad-raad.github.io/Leaderboard/)
+[Demo](https://mhamad-raad.github.io/Calculator-React/)
 
 ## Getting Started
 To get a local copy up and running follow these simple example steps.
