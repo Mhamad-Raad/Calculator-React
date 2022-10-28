@@ -4,8 +4,8 @@ import './Calculator.css';
 
 const Calculator = () => {
   const [total, setTotal] = useState('');
-  const [next, setNext] = useState('');
-  const [operation, setOperation] = useState('');
+  const [next, setNext] = useState(null);
+  const [operation, setOperation] = useState(null);
 
   const addInput = (event) => {
     const clickedNumber = event.target.innerText;
@@ -17,7 +17,7 @@ const Calculator = () => {
       setTotal(temp);
     } else if (operation !== null && total !== null) {
       if (next === null) {
-        next(clickedNumber.toString());
+        setNext(clickedNumber.toString());
       } else {
         const temp = next.toString() + clickedNumber.toString();
         setNext(temp);
@@ -62,7 +62,7 @@ const Calculator = () => {
     setNext(result.next);
     setOperation(result.operation);
   };
-
+  console.log(operation);
   return (
     <div className="calculator">
       <input type="text" readOnly value={operation === null ? total : next} className="calcInput" />
