@@ -1,9 +1,16 @@
 /* eslint-disable react/prefer-stateless-function */
 
+import { BrowserRouter as Router } from 'react-router-dom';
 import './App.css';
 import React from 'react';
-import Calculator from './Components/UI/Calculator';
+import Layout from './Components/Layout/Layout';
 
-const App = () => <Calculator />;
+function App() {
+  return (
+    <Router>
+      <Layout />
+    </Router>
+  );
+}
 
 export default App;
