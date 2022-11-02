@@ -14,9 +14,15 @@
 h1 {
   font-size: 40px;
   font-weight: bold;
-  margin-bottom: 20px;
 }
 
 .right-side {
   width: 60%;
+}
+
+@media only screen and (max-width: 768px) {
+  .left-side h1 {
+    font-size: 20px;
+    font-weight: bold;
+  }
 }
