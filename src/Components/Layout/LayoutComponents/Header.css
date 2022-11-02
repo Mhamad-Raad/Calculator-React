@@ -7,7 +7,7 @@
   padding: 7px 100px;
 }
 
-ul {
+.desk-nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -39,4 +39,24 @@ a {
   font-size: 20px;
   font-weight: bolder;
   color: white;
+}
+
+.hamburger {
+  display: none;
+  font-size: 40px;
+  color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  .desk-nav {
+    display: none;
+  }
+
+  .navbar-bg {
+    padding: 7px 30px;
+  }
+
+  .hamburger {
+    display: block;
+  }
 }
