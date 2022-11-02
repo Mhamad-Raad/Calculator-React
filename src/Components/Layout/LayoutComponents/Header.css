@@ -1,0 +1,59 @@
+.navbar-bg {
+  justify-content: space-between;
+  align-items: center;
+  background-color: purple;
+  box-sizing: content-box;
+  padding: 7px 100px;
+}
+
+.desk-nav {
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  width: 50%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.logo-bg {
+  justify-content: space-between;
+  align-items: center;
+  width: 170px;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  color: white;
+}
+
+.logo-name {
+  font-size: 20px;
+  font-weight: bolder;
+  color: white;
+}
+
+.hamburger {
+  display: none;
+  font-size: 40px;
+  color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  .desk-nav {
+    display: none;
+  }
+
+  .navbar-bg {
+    padding: 7px 30px;
+  }
+
+  .hamburger {
+    display: block;
+  }
+}

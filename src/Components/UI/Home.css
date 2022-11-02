@@ -1,0 +1,24 @@
+.home {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 20px 14px;
+}
+
+.home-header {
+  font-size: 24px;
+  font-weight: bolder;
+  color: black;
+}
+
+.p1 {
+  font-size: 16px;
+  font-weight: normal;
+  color: black;
+}
+
+.p2 {
+  font-size: 16px;
+  font-weight: normal;
+  color: black;
+}
