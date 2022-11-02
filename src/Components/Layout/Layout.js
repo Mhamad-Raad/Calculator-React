@@ -7,6 +7,7 @@ import Home from '../UI/Home';
 import CalcHome from '../UI/ClacHome';
 import Quote from '../UI/Quote';
 import MobileNav from '../UI/MobileNav';
+import '../../App.css';
 
 export default function Layout() {
   const [toggle, setToggle] = useState(false);
@@ -19,9 +20,9 @@ export default function Layout() {
         <>
           <IoMdClose onClick={toggleNav} className="closeIcon" />
           <ul className="mobile-ul">
-            <li className="mobile-li"><Link to="/" onClick={toggleNav}>Home</Link></li>
-            <li><Link to="/about" className="mobile-li" onClick={toggleNav}>Calculator</Link></li>
-            <li><Link to="/Quote" className="mobile-li" onClick={toggleNav}>Quote</Link></li>
+            <li className="mobile-li flex"><Link to="/" onClick={toggleNav}>Home</Link></li>
+            <li><Link to="/about" className="mobile-li flex" onClick={toggleNav}>Calculator</Link></li>
+            <li><Link to="/Quote" className="mobile-li flex" onClick={toggleNav}>Quote</Link></li>
           </ul>
         </>
       </MobileNav>

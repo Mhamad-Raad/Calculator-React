@@ -1,5 +1,4 @@
 .navbar-bg {
-  display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: purple;
@@ -8,7 +7,6 @@
 }
 
 .desk-nav {
-  display: flex;
   justify-content: space-around;
   align-items: center;
   list-style: none;
@@ -23,7 +21,6 @@ a {
 }
 
 .logo-bg {
-  display: flex;
   justify-content: space-between;
   align-items: center;
   width: 170px;

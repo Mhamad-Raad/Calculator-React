@@ -1,9 +1,10 @@
 import React from 'react';
 import './Home.css';
+import '../../App.css';
 
 export default function Home() {
   return (
-    <div className="home">
+    <div className="home flex">
       <h1 className="home-header">
         Welcome to the Home Page
       </h1>
