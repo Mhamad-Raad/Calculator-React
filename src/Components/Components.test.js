@@ -3,7 +3,6 @@ import Home from './UI/Home';
 import Quote from './UI/Quote';
 import ClacHome from './UI/ClacHome';
 
-
 describe('Testing Components', () => {
   test('Testing Homepage', () => {
     const home = render(<Home />);
@@ -19,7 +18,9 @@ describe('Testing Components', () => {
   });
 
   test('calls onClick prop when clicked', () => {
+    // eslint-disable-next-line
     const Button = ({ onClick, children }) => (
+      // eslint-disable-next-line
       <button onClick={onClick}>{children}</button>
     );
     const handleClick = jest.fn();
