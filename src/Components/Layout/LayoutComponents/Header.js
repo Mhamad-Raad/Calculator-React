@@ -3,8 +3,9 @@ import { Link } from 'react-router-dom';
 import './Header.css';
 import { FaAtom } from 'react-icons/fa';
 import { CgMenuRight } from 'react-icons/cg';
+import PropTypes from 'prop-types';
 
-export default function Header() {
+export default function Header({ togglenav }) {
   return (
     <nav className="navbar-bg">
       <div className="logo-bg">
@@ -17,8 +18,11 @@ export default function Header() {
         <li><Link to="/about">Calculator</Link></li>
         <li><Link to="/Quote">Quote</Link></li>
       </ul>
-
-      <CgMenuRight className="hamburger" />
+      <CgMenuRight className="hamburger" onClick={togglenav} />
     </nav>
   );
 }
+
+Header.propTypes = {
+  togglenav: PropTypes.func.isRequired,
+};

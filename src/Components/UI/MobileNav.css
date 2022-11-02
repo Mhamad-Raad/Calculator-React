@@ -1,0 +1,46 @@
+.bg {
+  background-color: #866aa4;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.modal {
+  display: flex;
+  position: fixed;
+  z-index: 101;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+.mobile-ul {
+  width: 100%;
+  margin-top: 100px;
+  list-style-type: none;
+  padding: 0;
+}
+
+.mobile-li {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
+
+.closeIcon {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 4rem;
+  color: #fff;
+  cursor: pointer;
+}
