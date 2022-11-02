@@ -1,3 +1,752 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Testing Components Testing Homepage 1`] = `[Function]`;
+exports[`Testing Components Testing Cal 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="quote-bg flex"
+      >
+        <h1
+          class="quote"
+        >
+          'Mathematics is not about numbers, equations, computations, or algorithms: it is about understanding ' and different ways of thinking.
+          <b>
+             __William Paul Thurston
+          </b>
+        </h1>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="quote-bg flex"
+    >
+      <h1
+        class="quote"
+      >
+        'Mathematics is not about numbers, equations, computations, or algorithms: it is about understanding ' and different ways of thinking.
+        <b>
+           __William Paul Thurston
+        </b>
+      </h1>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Testing Components Testing Calculator 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="calc-home flex"
+      >
+        <div
+          class="left-side"
+        >
+          <h1>
+            Lets do some MATH
+          </h1>
+        </div>
+        <div
+          class="right-side"
+        >
+          <div
+            class="calculator"
+          >
+            <div
+              class="calcInput"
+              type="text"
+            >
+              0
+            </div>
+            <div
+              class="make-flex"
+            >
+              <div
+                class="row"
+              >
+                <button
+                  class="calcButton"
+                  type="button"
+                >
+                  AC
+                </button>
+                <button
+                  class="calcButton"
+                  type="button"
+                >
+                  +/-
+                </button>
+                <button
+                  class="calcButton"
+                  type="button"
+                >
+                  %
+                </button>
+                <button
+                  class="calcButton orange"
+                  type="button"
+                >
+                  ÷
+                </button>
+              </div>
+              <div
+                class="row"
+              >
+                <button
+                  class="calcButton"
+                  type="button"
+                >
+                  7
+                </button>
+                <button
+                  class="calcButton"
+                  type="button"
+                >
+                  8
+                </button>
+                <button
+                  class="calcButton"
+                  type="button"
+                >
+                  9
+                </button>
+                <button
+                  class="calcButton orange"
+                  type="button"
+                >
+                  x
+                </button>
+              </div>
+              <div
+                class="row"
+              >
+                <button
+                  class="calcButton"
+                  type="button"
+                >
+                  4
+                </button>
+                <button
+                  class="calcButton"
+                  type="button"
+                >
+                  5
+                </button>
+                <button
+                  class="calcButton"
+                  type="button"
+                >
+                  6
+                </button>
+                <button
+                  class="calcButton orange"
+                  type="button"
+                >
+                  -
+                </button>
+              </div>
+              <div
+                class="row"
+              >
+                <button
+                  class="calcButton"
+                  type="button"
+                >
+                  1
+                </button>
+                <button
+                  class="calcButton"
+                  type="button"
+                >
+                  2
+                </button>
+                <button
+                  class="calcButton"
+                  type="button"
+                >
+                  3
+                </button>
+                <button
+                  class="calcButton orange"
+                  type="button"
+                >
+                  +
+                </button>
+              </div>
+              <div
+                class="row"
+              >
+                <button
+                  class="calcButton zero"
+                  type="button"
+                >
+                  0
+                </button>
+                <button
+                  class="calcButton dot"
+                  type="button"
+                >
+                  .
+                </button>
+                <button
+                  class="calcButton orange equal"
+                  type="button"
+                >
+                  =
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="calc-home flex"
+    >
+      <div
+        class="left-side"
+      >
+        <h1>
+          Lets do some MATH
+        </h1>
+      </div>
+      <div
+        class="right-side"
+      >
+        <div
+          class="calculator"
+        >
+          <div
+            class="calcInput"
+            type="text"
+          >
+            0
+          </div>
+          <div
+            class="make-flex"
+          >
+            <div
+              class="row"
+            >
+              <button
+                class="calcButton"
+                type="button"
+              >
+                AC
+              </button>
+              <button
+                class="calcButton"
+                type="button"
+              >
+                +/-
+              </button>
+              <button
+                class="calcButton"
+                type="button"
+              >
+                %
+              </button>
+              <button
+                class="calcButton orange"
+                type="button"
+              >
+                ÷
+              </button>
+            </div>
+            <div
+              class="row"
+            >
+              <button
+                class="calcButton"
+                type="button"
+              >
+                7
+              </button>
+              <button
+                class="calcButton"
+                type="button"
+              >
+                8
+              </button>
+              <button
+                class="calcButton"
+                type="button"
+              >
+                9
+              </button>
+              <button
+                class="calcButton orange"
+                type="button"
+              >
+                x
+              </button>
+            </div>
+            <div
+              class="row"
+            >
+              <button
+                class="calcButton"
+                type="button"
+              >
+                4
+              </button>
+              <button
+                class="calcButton"
+                type="button"
+              >
+                5
+              </button>
+              <button
+                class="calcButton"
+                type="button"
+              >
+                6
+              </button>
+              <button
+                class="calcButton orange"
+                type="button"
+              >
+                -
+              </button>
+            </div>
+            <div
+              class="row"
+            >
+              <button
+                class="calcButton"
+                type="button"
+              >
+                1
+              </button>
+              <button
+                class="calcButton"
+                type="button"
+              >
+                2
+              </button>
+              <button
+                class="calcButton"
+                type="button"
+              >
+                3
+              </button>
+              <button
+                class="calcButton orange"
+                type="button"
+              >
+                +
+              </button>
+            </div>
+            <div
+              class="row"
+            >
+              <button
+                class="calcButton zero"
+                type="button"
+              >
+                0
+              </button>
+              <button
+                class="calcButton dot"
+                type="button"
+              >
+                .
+              </button>
+              <button
+                class="calcButton orange equal"
+                type="button"
+              >
+                =
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Testing Components Testing Homepage 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="home flex"
+      >
+        <h1
+          class="home-header"
+        >
+          Welcome to the Home Page
+        </h1>
+        <p
+          class="p1"
+        >
+          Praesent at ultrices ligula. Suspendisse ut ex laoreet orci convallis rutrum at id leo. Morbi placerat tincidunt massa eget iaculis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent in dolor vitae diam bibendum bibendum. Vestibulum feugiat justo libero, nec pellentesque turpis tincidunt at. In ac commodo libero, in vehicula felis. Duis ac nunc est.
+        </p>
+        <p
+          class="p2"
+        >
+          Donec auctor, nisl eget ultricies lacinia, nisl nunc aliquet nisl, nec tincidunt nunc nisl euismod nunc. Nulla facilisi. Donec auctor, nisl eget ultricies lacinia, nisl nunc aliquet nisl, nec tincidunt nunc nisl euismod nunc. Nulla facilisi.
+        </p>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="home flex"
+    >
+      <h1
+        class="home-header"
+      >
+        Welcome to the Home Page
+      </h1>
+      <p
+        class="p1"
+      >
+        Praesent at ultrices ligula. Suspendisse ut ex laoreet orci convallis rutrum at id leo. Morbi placerat tincidunt massa eget iaculis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent in dolor vitae diam bibendum bibendum. Vestibulum feugiat justo libero, nec pellentesque turpis tincidunt at. In ac commodo libero, in vehicula felis. Duis ac nunc est.
+      </p>
+      <p
+        class="p2"
+      >
+        Donec auctor, nisl eget ultricies lacinia, nisl nunc aliquet nisl, nec tincidunt nunc nisl euismod nunc. Nulla facilisi. Donec auctor, nisl eget ultricies lacinia, nisl nunc aliquet nisl, nec tincidunt nunc nisl euismod nunc. Nulla facilisi.
+      </p>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Testing Components Testing Quotes 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="quote-bg flex"
+      >
+        <h1
+          class="quote"
+        >
+          'Mathematics is not about numbers, equations, computations, or algorithms: it is about understanding ' and different ways of thinking.
+          <b>
+             __William Paul Thurston
+          </b>
+        </h1>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="quote-bg flex"
+    >
+      <h1
+        class="quote"
+      >
+        'Mathematics is not about numbers, equations, computations, or algorithms: it is about understanding ' and different ways of thinking.
+        <b>
+           __William Paul Thurston
+        </b>
+      </h1>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Testing Components Testing Quotes 2`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="quote-bg flex"
+      >
+        <h1
+          class="quote"
+        >
+          'Mathematics is not about numbers, equations, computations, or algorithms: it is about understanding ' and different ways of thinking.
+          <b>
+             __William Paul Thurston
+          </b>
+        </h1>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="quote-bg flex"
+    >
+      <h1
+        class="quote"
+      >
+        'Mathematics is not about numbers, equations, computations, or algorithms: it is about understanding ' and different ways of thinking.
+        <b>
+           __William Paul Thurston
+        </b>
+      </h1>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
