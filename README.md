@@ -8,7 +8,8 @@ this is a web application where you have a calculator, and you can use it to sol
 - CSS
 - React
 # Live Demo
-[Demo](https://mhamad-raad.github.io/Calculator-React/)
+- Github: [Demo](https://mhamad-raad.github.io/Calculator-React/)
+- Netlify: [Demo](https://elaborate-strudel-07bec0.netlify.app/)
 
 ## Getting Started
 To get a local copy up and running follow these simple example steps.
