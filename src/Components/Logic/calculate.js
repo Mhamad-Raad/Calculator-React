@@ -16,7 +16,7 @@ function isNumber(item) {
 export default function calculate(obj, buttonName) {
   if (buttonName === 'AC') {
     return {
-      total: '',
+      total: null,
       next: null,
       operation: null,
     };
@@ -60,7 +60,7 @@ export default function calculate(obj, buttonName) {
       if (obj.total.includes('.')) {
         return {};
       }
-      return { ...obj, total: `${obj.total}.` };
+      return { ...obj, next: `${obj.total}.` };
     }
     return { ...obj, next: '0.' };
   }
@@ -74,14 +74,10 @@ export default function calculate(obj, buttonName) {
       };
     }
     // '=' with no operation, nothing to do
-    return {
-      total: obj.total,
-      next: null,
-      operation: null,
-    };
+    return {};
   }
 
-  if (buttonName === '+/-') {
+  if (buttonName === '±') {
     if (obj.next) {
       return { ...obj, next: (-1 * parseFloat(obj.next)).toString() };
     }
